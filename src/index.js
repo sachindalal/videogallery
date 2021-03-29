@@ -16,7 +16,7 @@ class Board extends React.Component {
       <Square 
       vlaue={this.props.squares[i]} 
       onClick={() => this.props.onClick(i)} 
-  /> 
+  />
 );
   }
 
