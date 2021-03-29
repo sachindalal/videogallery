@@ -9,7 +9,12 @@ function Square(props) {
 class Board extends React.Component {
  
   renderSquare(i) {
-    return ( <Square vlaue={this.props.squares[i]} onClick={() => this.props.onClick(i)} />; );
+    return ( 
+      <Square 
+      vlaue={this.props.squares[i]} 
+      onClick={() => this.props.onClick(i)} 
+  />; 
+);
   }
 
   render() {
